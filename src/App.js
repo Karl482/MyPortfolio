@@ -22,7 +22,13 @@ const Footer = () => (
 
 const Home = () => (
   <div className="container mt-4 d-flex flex-column align-items-center" style={{ height: "80vh" }}>
-    <h2 style={{ fontSize: "4rem", fontWeight: "bold", marginTop: "2rem" }}>Welcome!</h2>
+    <h2 style={{ fontSize: "4rem", fontWeight: "bold", marginTop: "2rem" }}>Hello and Welcome!</h2>
+    <h3 style={{ fontSize: "2rem", fontWeight: "normal", marginTop: "1rem" }}>My Name is Carl</h3>
+    <img
+      src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t39.30808-6/476496214_9620895977942328_3104424207683260055_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEerT2SAUH2oBvbTYzK2nnCxTLqE_umgX_FMuoT-6aBfwTMVLh--2c5Es7KjETfCWM-IJ3cyhZG__dLTxvckd35&_nc_ohc=3OsgIt-TrE0Q7kNvwGUnzzg&_nc_oc=Adn9nrfIUCo7QmNeaGAwHXchCMM-vL280VnZnOE_Z4_8YWuteSjUOrbxYnWjT5N0V6c&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&_nc_gid=pDQW4RKVR7aYD_3rGgJMoQ&oh=00_AfFYh8vpQdSPTxeK94Q7AOxj7i-68uMVLoFWKoomQ9zvtg&oe=68183243"
+      alt="Welcome Image"
+      style={{ width: "300px", height: "300px", borderRadius: "50%", marginTop: "1rem" }}
+    />
     <p className="text-center">
       Welcome to my portfolio! I'm excited to share my work, experiences, and passions with you. This space is a reflection of my journey—filled with projects I've built, challenges I've overcome, and the skills I've developed along the way. Whether you're a potential client, employer, or fellow creative, I hope you'll find something here that resonates with you.
     </p>
